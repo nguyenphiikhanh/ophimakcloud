@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bc3c85b36585fb593a98165d62a0009a",
+    "content-hash": "f16e5a99cd9ab49b184b47cf9125eb0c",
     "packages": [
         {
             "name": "artesaos/seotools",
@@ -2007,6 +2007,54 @@
             "time": "2023-10-21T09:30:20+00:00"
         },
         {
+            "name": "hacoidev/ophim-crawler",
+            "version": "1.1.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hacoidev/ophim-crawler.git",
+                "reference": "16052915b00de3c53a93eb0f1317e95752ba13c2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hacoidev/ophim-crawler/zipball/16052915b00de3c53a93eb0f1317e95752ba13c2",
+                "reference": "16052915b00de3c53a93eb0f1317e95752ba13c2",
+                "shasum": ""
+            },
+            "require": {
+                "hacoidev/ophim-core": "^1.0.0",
+                "intervention/image": "^2.7"
+            },
+            "type": "package",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Ophim\\Crawler\\OphimCrawler\\OphimCrawlerServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Ophim\\Crawler\\OphimCrawler\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "hacoidev",
+                    "email": "hacoi.dev@gmail.com"
+                }
+            ],
+            "description": "ophim crawler",
+            "support": {
+                "issues": "https://github.com/hacoidev/ophim-crawler/issues",
+                "source": "https://github.com/hacoidev/ophim-crawler/tree/1.1.8"
+            },
+            "time": "2023-04-07T13:13:49+00:00"
+        },
+        {
             "name": "hacoidev/permissionmanager",
             "version": "1.0.0",
             "source": {
@@ -3648,6 +3696,57 @@
                 "source": "https://github.com/nikic/PHP-Parser/tree/v4.17.1"
             },
             "time": "2023-08-13T19:53:39+00:00"
+        },
+        {
+            "name": "ophimcms/theme-toro",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phantom0803/ophim-theme-toro.git",
+                "reference": "0d2ab423bd15395eaea7cbba78cd5ce716839834"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phantom0803/ophim-theme-toro/zipball/0d2ab423bd15395eaea7cbba78cd5ce716839834",
+                "reference": "0d2ab423bd15395eaea7cbba78cd5ce716839834",
+                "shasum": ""
+            },
+            "require": {
+                "ckfinder/ckfinder-laravel-package": "v3.5.2.1",
+                "hacoidev/ophim-core": "^1.0.0",
+                "laravel/framework": "^6|^7|^8"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Ophim\\ThemeToro\\ThemeToroServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Ophim\\ThemeToro\\": "src/",
+                    "Ophim\\ThemeToro\\Database\\Seeders\\": "database/seeders/",
+                    "Ophim\\ThemeToro\\Database\\Factories\\": "database/factories/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ophimcms",
+                    "email": "opdlnf01@gmail.com"
+                }
+            ],
+            "description": "Ophim's toro theme",
+            "support": {
+                "issues": "https://github.com/phantom0803/ophim-theme-toro/issues",
+                "source": "https://github.com/phantom0803/ophim-theme-toro/tree/1.0.1"
+            },
+            "time": "2023-06-12T05:37:48+00:00"
         },
         {
             "name": "opis/closure",
