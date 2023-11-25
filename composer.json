@@ -10,10 +10,11 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "hacoidev/ophim-core": "^1.2",
         "hacoidev/ophim-crawler": "^1.1",
+        "hacoidev/ophim-ripple": "^1.2",
         "laravel/framework": "^8.75",
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
-        "ophimcms/theme-toro": "^1.0"
+        "ophimcms/theme-hhtq": "^1.2"
     },
     "require-dev": {
         "facade/ignition": "^2.5",

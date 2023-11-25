@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f16e5a99cd9ab49b184b47cf9125eb0c",
+    "content-hash": "b7705540142d71cbcedcdadeef867708",
     "packages": [
         {
             "name": "artesaos/seotools",
@@ -2055,6 +2055,57 @@
             "time": "2023-04-07T13:13:49+00:00"
         },
         {
+            "name": "hacoidev/ophim-ripple",
+            "version": "1.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hacoidev/ophim-ripple.git",
+                "reference": "b9263764919acb708a3f61ca87dc35e5f052fdc7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hacoidev/ophim-ripple/zipball/b9263764919acb708a3f61ca87dc35e5f052fdc7",
+                "reference": "b9263764919acb708a3f61ca87dc35e5f052fdc7",
+                "shasum": ""
+            },
+            "require": {
+                "ckfinder/ckfinder-laravel-package": "v3.5.2.1",
+                "hacoidev/ophim-core": "^1.1.0",
+                "laravel/framework": "^6|^7|^8"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Ophim\\Ripple\\RippleServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Ophim\\Ripple\\": "src/",
+                    "Ophim\\Ripple\\Database\\Seeders\\": "database/seeders/",
+                    "Ophim\\Ripple\\Database\\Factories\\": "database/factories/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "hacoidev",
+                    "email": "hacoi.dev@gmail.com"
+                }
+            ],
+            "description": "Ophim's ripple theme",
+            "support": {
+                "issues": "https://github.com/hacoidev/ophim-ripple/issues",
+                "source": "https://github.com/hacoidev/ophim-ripple/tree/1.2.2"
+            },
+            "time": "2023-04-06T19:50:16+00:00"
+        },
+        {
             "name": "hacoidev/permissionmanager",
             "version": "1.0.0",
             "source": {
@@ -3698,37 +3749,37 @@
             "time": "2023-08-13T19:53:39+00:00"
         },
         {
-            "name": "ophimcms/theme-toro",
-            "version": "1.0.1",
+            "name": "ophimcms/theme-hhtq",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/phantom0803/ophim-theme-toro.git",
-                "reference": "0d2ab423bd15395eaea7cbba78cd5ce716839834"
+                "url": "https://github.com/phantom0803/ophim-theme-hhtq.git",
+                "reference": "a2e563655a9943f902f55e56f46ee52eba0c1b7c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phantom0803/ophim-theme-toro/zipball/0d2ab423bd15395eaea7cbba78cd5ce716839834",
-                "reference": "0d2ab423bd15395eaea7cbba78cd5ce716839834",
+                "url": "https://api.github.com/repos/phantom0803/ophim-theme-hhtq/zipball/a2e563655a9943f902f55e56f46ee52eba0c1b7c",
+                "reference": "a2e563655a9943f902f55e56f46ee52eba0c1b7c",
                 "shasum": ""
             },
             "require": {
                 "ckfinder/ckfinder-laravel-package": "v3.5.2.1",
-                "hacoidev/ophim-core": "^1.0.0",
+                "hacoidev/ophim-core": "^1.1.0",
                 "laravel/framework": "^6|^7|^8"
             },
             "type": "library",
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Ophim\\ThemeToro\\ThemeToroServiceProvider"
+                        "Ophim\\ThemeHhtq\\ThemeHhtqServiceProvider"
                     ]
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "Ophim\\ThemeToro\\": "src/",
-                    "Ophim\\ThemeToro\\Database\\Seeders\\": "database/seeders/",
-                    "Ophim\\ThemeToro\\Database\\Factories\\": "database/factories/"
+                    "Ophim\\ThemeHhtq\\": "src/",
+                    "Ophim\\ThemeHhtq\\Database\\Seeders\\": "database/seeders/",
+                    "Ophim\\ThemeHhtq\\Database\\Factories\\": "database/factories/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3741,12 +3792,12 @@
                     "email": "opdlnf01@gmail.com"
                 }
             ],
-            "description": "Ophim's toro theme",
+            "description": "Ophim's hhtq theme",
             "support": {
-                "issues": "https://github.com/phantom0803/ophim-theme-toro/issues",
-                "source": "https://github.com/phantom0803/ophim-theme-toro/tree/1.0.1"
+                "issues": "https://github.com/phantom0803/ophim-theme-hhtq/issues",
+                "source": "https://github.com/phantom0803/ophim-theme-hhtq/tree/1.2.1"
             },
-            "time": "2023-06-12T05:37:48+00:00"
+            "time": "2023-06-12T05:45:12+00:00"
         },
         {
             "name": "opis/closure",
